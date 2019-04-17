@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab22f76c-fdaf-47e4-adb4-168a909dd599" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TextAlignment$Aligner.ic" NAME="Aligner Coverage Results" MODIFIED="1548873055976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lico.ilc.cnr.it.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TextAlignment">
+      <favorite_root url="file://$PROJECT_DIR$" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/src/main" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/src/main/java" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/model" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/model/Stringa.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/model/StringaImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/StringaHelper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/StringaBuilder.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/action" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/action/OmegaClient.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/action/TEIserializer.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/Aligner.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/src/main/resources" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/test.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/tei_all.dtd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/ParallelCorpus-1-5-9.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/CSV-TALMUD-13-01-2019.csv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/primoOutputTEI-Talmud.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/ParallelCorpora-template.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/Barakot-Rosh-Ta-WithLiteral-TEI.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/TALMUD-TRADUZIONE-ALL-CSV-31-01-2019.csv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/TALMUD-TRADUZIONE-BERAKOT-CSV-31-01-2019.csv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/src/main/resources/ParallelCorpus-1-5-9-withLiteral-template.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/src/test" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/src/test/java" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/.idea" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/compiler.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/encodings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/fileTemplates" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/.idea/fileTemplates/code" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/fileTemplates/j2ee" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/fileTemplates/includes" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <favorite_root url="file://$PROJECT_DIR$/.idea/fileTemplates/internal" module="TextAlignment" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Barakot-TEI.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/TextAlignment.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/EXPORT-Barakot-Rosh-Ta-TEI.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Barakot-Rosh-Ta-WithLiteral-TEI.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/Aligner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="52" column="85" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trattato-heb-1-heb.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="24" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/shabbat-qiddushin-WithLiteral-TEI.xml">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="378">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-1-heb.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Barakot-Rosh-Ta-WithLiteral-TEI.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1182654">
+              <caret line="65703" column="113" selection-start-line="65703" selection-start-column="113" selection-end-line="65703" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/classes/trattati-txt-bk/trattato-heb-2-heb.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-heb-1-heb.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-heb-2-heb-notok.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51228">
+              <caret line="2846" column="26" selection-start-line="2846" selection-start-column="26" selection-end-line="2846" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-5-heb.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;span [^&gt;]+ rel=&gt;</find>
+      <find>&lt;span class=\&quot;\&quot;note\&quot;\&quot; [^&gt;]* rel=.*?&gt;.&lt;/span&gt;</find>
+      <find>println</find>
+      <find>class=&quot;&quot;bold&quot;&quot;</find>
+      <find>language='ita'</find>
+      <find>lan</find>
+      <find>xml:lang</find>
+      <find>ab</find>
+      <find>&lt;ab&gt;</find>
+      <find>\p{InHebrew}</find>
+      <find>[^\p{InHebrew}]</find>
+      <find>[^\p{InHebrew}\s]</find>
+      <find>berakotPredicate</find>
+      <find>2001001001001</find>
+      <find>text</find>
+      <find>trattato</find>
+      <find>&quot;</find>
+      <find>&quot;$</find>
+      <find>&quot;$|^&quot;</find>
+      <find>‘</find>
+      <find>\p{Inhebrew}</find>
+      <find>[^\p{Inhebrew}\s]</find>
+      <find>(?&lt;!\s)[^\p{Inhebrew}\s]</find>
+      <find />
+      <find>( ‘)</find>
+      <find>paura</find>
+      <find>מוֹרָא</find>
+      <find>1004019002037</find>
+      <find>( ‘ )</find>
+      <find>שְׁמַע</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.</replace>
+      <replace>$1</replace>
+      <replace>$1</replace>
+      <replace />
+      <replace>‘</replace>
+      <replace>‘</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/ParallelCorpora-template.xml" />
+        <option value="$PROJECT_DIR$/target/classes/ParallelCorpora-template.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/primoOutputTEI-Talmud" />
+        <option value="$PROJECT_DIR$/src/main/resources/primoOutputTEI-Talmud.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/model/Stringa.java" />
+        <option value="$PROJECT_DIR$/Barakot-TEI.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ParallelCorpus-1-5-9.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.txt" />
+        <option value="$PROJECT_DIR$/Barakot-Rosh-Ta-TEI.xml" />
+        <option value="$PROJECT_DIR$/Barakot-Rosh-Ta-WithLiteral-TEI.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ParallelCorpus-1-5-9-withLiteral-template.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/action/TEIserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/model/StringaImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/StringaBuilder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/trattato-heb-1-heb.txt" />
+        <option value="$PROJECT_DIR$/trattato-heb-5-heb.txt" />
+        <option value="$PROJECT_DIR$/trattato-heb-9-heb.txt" />
+        <option value="$PROJECT_DIR$/trattato-ita-literal-1-ita.txt" />
+        <option value="$PROJECT_DIR$/trattato-ita-literal-5-ita.txt" />
+        <option value="$PROJECT_DIR$/trattato-ita-literal-9-ita.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/HebrewUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/StringaHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/parallelCorpus-2-19.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-19-heb.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-ita-literal-19-ita.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/trattato-heb-5-heb.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Barakot-Rosh-Ta-WithLiteral-TEI.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/Aligner.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/trattato-heb-1-heb.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TextAlignment" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TextAlignment" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="50" />
+    <option name="width" value="1803" />
+    <option name="height" value="1139" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TextAlignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextAlignment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextAlignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextAlignment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextAlignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextAlignment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextAlignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextAlignment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554361737889" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Risorse/src/wordalignment/berkelay-unsupervided" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26566124" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/trattati-txt-bk" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Aligner">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aligner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lico.ilc.cnr.it.Aligner" />
+      <module name="TextAlignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lico.ilc.cnr.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lico.ilc.cnr.it.Aligner" />
+      <module name="TextAlignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextAlignment []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Aligner" />
+      <item itemvalue="Maven.TextAlignment []" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aligner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab22f76c-fdaf-47e4-adb4-168a909dd599" name="Default Changelist" comment="" />
+      <created>1548863133616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548863133616</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="33" y="50" width="1803" height="1139" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54387754" visible="true" weight="0.26047045" />
+      <window_info id="Structure" order="1" sideWeight="0.45612246" side_tool="true" weight="0.25588065" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.45612246" side_tool="true" weight="0.25071716" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73723465" visible="true" weight="0.13061224" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49971315" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16695353" side_tool="true" weight="0.030612245" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49971315" weight="0.12142857" />
+      <window_info anchor="bottom" x="0" y="0" width="390" height="939" id="Documentation" order="12" sideWeight="0.26276535" side_tool="true" weight="0.24081632" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.32959184" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32941866" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32941866" />
+    </layout>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/trattato-ita-literal-1ita.txt" />
+    <entry file="file://$PROJECT_DIR$/trattato-ita-literal-5ita.txt" />
+    <entry file="file://$PROJECT_DIR$/trattato-ita-literal-9ita.txt" />
+    <entry file="file://$PROJECT_DIR$/trattato-heb-1heb.txt" />
+    <entry file="file://$PROJECT_DIR$/trattato-heb-5heb.txt" />
+    <entry file="file://$PROJECT_DIR$/trattato-heb-9heb.txt" />
+    <entry file="file://$PROJECT_DIR$/target/classes/Barakot-Rosh-Ta-WithLiteral-TEI.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="17677" column="17" selection-start-line="17677" selection-start-column="12" selection-end-line="17677" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trattato-ita-literal-9-ita.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="6642" selection-start-line="6642" selection-end-line="6642" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trattato-heb-9-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="6642" selection-start-line="6642" selection-end-line="6642" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trattato-ita-literal-5-ita.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="4705" lean-forward="true" selection-start-line="4705" selection-end-line="4705" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trattato-heb-5-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83832">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trattato-ita-literal-1-ita.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="17649" selection-start-line="17649" selection-end-line="17649" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/HebrewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shabbat-qiddushin-WithLiteral-TEI.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ParallelCorpus-1-5-9-withLiteral-template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1124">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#titleStmt#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#publicationStmt#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#sourceDesc#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#1;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#2;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#1;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#2;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#1;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#2;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#linkGrp#0;n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#linkGrp#1;n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#linkGrp#2;n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/primoOutputTEI-Talmud.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="23" selection-start-line="18" selection-start-column="16" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#titleStmt#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#publicationStmt#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#sourceDesc#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#seg#0;n#ab#0;n#div#0;n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#div#0;n#body#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#seg#0;n#ab#0;n#div#0;n#div#0;n#body#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/StringaBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/utils/StringaHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Risorse/src/wordalignment/berkelay-unsupervided/berkeleyaligner/berkeleyaligner.jar!/edu/berkeley/nlp/mt/BleuScore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Risorse/src/wordalignment/berkelay-unsupervided/berkeleyaligner/berkeleyaligner.jar!/edu/berkeley/nlp/mt/Alignment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/action/TEIserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-ita-literal-19-ita.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-ita-literal-2-ita-notok.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-heb-9-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-heb-19-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-ita-literal-19-ita.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-ita-literal-1-ita.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/trattato-ita-literal-1-ita.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1728" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/trattato-ita-literal-2-ita.txt" />
+    <entry file="file://$PROJECT_DIR$/target/classes/ParallelCorpus-2-19-withLiteral-template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-heb-5-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="4413" column="32" lean-forward="true" selection-start-line="4413" selection-start-column="32" selection-end-line="4413" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/shabbat-qiddushin-WithLiteral-TEI.xml">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-98016">
+          <caret line="2279" column="87" lean-forward="true" selection-start-line="2279" selection-start-column="87" selection-end-line="2279" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-ita-literal-1-ita.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CSV-TALMUD-13-01-2019.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/trattato-heb-1-heb.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/trattato-heb-2-heb.txt" />
+    <entry file="file://$PROJECT_DIR$/trattato-heb-2-heb.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-2-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-19-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="394" column="2" selection-start-line="394" selection-start-column="2" selection-end-line="394" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-9-heb.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ParallelCorpus-2-19-withLiteral-template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#titleStmt#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#publicationStmt#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#sourceDesc#0;n#fileDesc#0;n#teiHeader#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#1;n#body#0;n#text#0;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#1;n#body#0;n#text#0;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#0;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#ab#0;n#div#1;n#body#0;n#text#1;n#group#0;n#text#1;n#group#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#linkGrp#0;n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+            <element signature="n#linkGrp#1;n#back#0;n#text#0;n#TEI#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lico/ilc/cnr/it/Aligner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="85" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trattato-heb-1-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shabbat-qiddushin-WithLiteral-TEI.xml">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="378">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-1-heb.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Barakot-Rosh-Ta-WithLiteral-TEI.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1182654">
+          <caret line="65703" column="113" selection-start-line="65703" selection-start-column="113" selection-end-line="65703" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/trattati-txt-bk/trattato-heb-2-heb.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-heb-1-heb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattato-heb-2-heb-notok.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51228">
+          <caret line="2846" column="26" selection-start-line="2846" selection-start-column="26" selection-end-line="2846" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/trattati-txt-bk/trattato-heb-5-heb.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26566124" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26566124" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TextAlignment</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26566124" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: edu.berkeley.nlp:berkeleyaligner:2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26566124" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18213457" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
